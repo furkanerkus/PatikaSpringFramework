@@ -11,6 +11,6 @@ import javax.inject.Named;
 // @RequestScoped ( 1 istek süresince çalışır.)
 //@SessionScoped ( 1 kullanıcı için yaşar. Logout ile çıkar.) (Serializable implementasyonu ile birlikte çalışır.)
 //@Dependent Bukelemon (Çağırılan yere göre scope değişiyor. Çağıran dosyanın scope unu alır.)
-@ConversationScoped // (Belli istek süresince çalışır.)
+//@ConversationScoped (Belli istek süresince çalışır.)
 public class _00_Scope {
 }
