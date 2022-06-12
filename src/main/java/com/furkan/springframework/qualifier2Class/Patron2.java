@@ -1,6 +1,4 @@
-package com.furkan.springframework.qualifier;
-
-import javax.enterprise.inject.Alternative;
+package com.furkan.springframework.qualifier2Class;
 
 @QualifierMultiple
 public class Patron2 implements PatronInterface {

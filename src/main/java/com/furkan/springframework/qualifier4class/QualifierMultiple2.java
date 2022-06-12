@@ -1,4 +1,4 @@
-package com.furkan.springframework.qualifier;
+package com.furkan.springframework.qualifier4class;
 
 import javax.inject.Qualifier;
 import java.lang.annotation.Documented;
@@ -12,5 +12,8 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Target({TYPE, METHOD, PARAMETER, FIELD})
 @Retention(RUNTIME)
 @Documented
-public @interface QualifierMultiple {
+public @interface QualifierMultiple2 {
+
+    //ENUM
+    EMultipleAlternative value();
 }

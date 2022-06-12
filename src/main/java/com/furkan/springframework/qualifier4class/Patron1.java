@@ -1,4 +1,4 @@
-package com.furkan.springframework.qualifier;
+package com.furkan.springframework.qualifier4class;
 
 import javax.enterprise.inject.Default;
 
