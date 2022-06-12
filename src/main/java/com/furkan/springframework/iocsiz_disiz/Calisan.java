@@ -4,7 +4,7 @@ package com.furkan.springframework.iocsiz_disiz;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Named;
 
-@Named(value = "cdisizCalisan")
+@Named(value = "iocsizCalisan")
 @ApplicationScoped
 public class Calisan {
 
