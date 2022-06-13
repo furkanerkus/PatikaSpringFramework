@@ -1,4 +1,4 @@
-package com.furkan.springframework.stereotype;
+package com.furkan.springframework.aop.stereotype;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

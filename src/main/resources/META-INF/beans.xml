@@ -16,4 +16,9 @@
         <class>com.furkan.springframework.aop.interceptor.InterceptorYolKesiciAsilIs</class>
     </interceptors>
 
+    <!--decorator--> <!--@Decorator neredeyse oranın path i veriliyor.-->
+    <decorators>
+        <class>com.furkan.springframework.aop.decorator.EvDecorator</class>
+    </decorators>
+
 </beans>
